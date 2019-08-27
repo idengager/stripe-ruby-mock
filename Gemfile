@@ -10,3 +10,5 @@ group :test do
 end
 
 gemspec
+
+gem 'stripe', '1.49.0', git: 'https://github.com/idengager/stripe-ruby.git', branch: '1.49.0'
